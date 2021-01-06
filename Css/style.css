@@ -1,0 +1,114 @@
+body {
+    background: rgb(66, 66, 66);
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    font-size: 60px;
+    color: rgb(212, 246, 255);
+    text-shadow: 4px 2px rgb(0, 0, 0);
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 17px;
+}
+
+.contenedor {
+    width: 90%;
+    height: 850px;
+    margin: auto;
+    border-style: solid;
+    border-color: rgb(35, 213, 245);
+    display: flex;
+    justify-content: center;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 0px 20px 5px rgba(35, 213, 245, 1);
+    -moz-box-shadow: 0px 0px 20px 5px rgba(35, 213, 245, 1);
+    box-shadow: 0px 0px 20px 5px rgba(35, 213, 245, 1);
+}
+
+.contenedor1 {
+    background-color: rgb(248, 255, 254);
+    width: 350px;
+    height: auto;
+    margin: 30px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 4px;
+    -webkit-box-shadow: 5px 0px 19px -1px rgb(255, 255, 255);
+    -moz-box-shadow: 5px 0px 19px -1px rgb(255, 255, 255);
+    box-shadow: 5px 0px 19px -1px rgb(255, 255, 255);
+}
+
+.estandar {
+    height: 450px;
+}
+
+.pro {
+    height: 650px;
+}
+
+.corp {
+    height: 740px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button:hover {
+    background-color: rgb(146, 243, 238);
+}
+
+button {
+    width: 200px;
+    border: solid;
+    border-color: rgb(255, 219, 219);
+    border-radius: 5px;
+}
+
+
+/* mediaQuerys */
+
+@media (max-width: 600px) {
+    .contenedor {
+        flex-direction: column;
+        height: auto;
+        margin: auto;
+        align-items: center;
+    }
+    .contenedor1 {
+        width: 280px;
+    }
+    .estandar {
+        height: 450px;
+    }
+    .pro {
+        height: 650px;
+    }
+    .corp {
+        height: 740px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 400px) {
+    .contenedor1 {
+        width: 250px;
+    }
+}
+
+@media (max-width: 350px) {
+    .contenedor1 {
+        width: 200px;
+    }
+}
